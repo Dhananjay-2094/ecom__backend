@@ -6,7 +6,7 @@ This is a Node.js API backed by a local SQLite database file. It supports produc
 
 Admin routes are marked in the API paths and guide. They are not protected by login because authentication is outside the assignment's scope.
 
-See [API_GUIDE.md](./API_GUIDE.md) for endpoint examples. Run the focused tests with `npm test` from the `backend/` folder.
+See [API_GUIDE.md](./API_GUIDE.md) for endpoint examples. Run the focused tests with `npm test` from the `ecom__backend/` folder.
 
 ## Rules that must always hold
 

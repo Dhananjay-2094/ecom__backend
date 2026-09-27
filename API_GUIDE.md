@@ -1,6 +1,6 @@
 # API guide
 
-This guide covers the backend as currently implemented. The API is JSON over HTTP. Start the server from `ecom_backend/` with `npm run dev`; the base URL is `http://localhost:3000`. There is no Angular UI yet, so open these API URLs with an API client (PowerShell, curl, Postman, etc.), not as browser pages.
+This guide covers the backend as currently implemented. The API is JSON over HTTP. Start the server from `ecom__backend/` with `npm run dev`; the base URL is `http://localhost:3000`. There is no Angular UI yet, so open these API URLs with an API client (PowerShell, curl, Postman, etc.), not as browser pages.
 
 Admin routes are under `/api/admin`. Authentication is intentionally not implemented, so these routes are not protected.
 
@@ -9,7 +9,7 @@ Admin routes are under `/api/admin`. Authentication is intentionally not impleme
 Install dependencies and start the server:
 
 ```powershell
-cd ecom_backend
+cd ecom__backend
 npm install
 npm run dev
 ```
