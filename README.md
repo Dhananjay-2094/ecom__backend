@@ -1,10 +1,10 @@
-# Checkout and Rewards API
+# Ecom API
 
 Node.js REST API backed by a local SQLite database through Node's built-in `node:sqlite` module. Prices use integer minor units (for example, 1299 means 12.99 in the configured currency). Node currently labels this module a release candidate; see the official [Node.js SQLite documentation](https://nodejs.org/api/sqlite.html).
 
 ## Run locally
 
-1. Install Node.js 24.15.0 or later. This avoids native npm SQLite addons and the C++ build-tool requirement.
+1. Install Node.js 24.15.0 or later. 
 2. In this directory, run `npm install`.
 3. Copy `.env` and adjust the reward settings if desired.
 4. Run `npm run dev` (or `npm start`). The service creates `data/store.sqlite`, applies the schema, and inserts the five starter products on startup. Stable seed IDs make this safe to repeat without adding duplicates.
